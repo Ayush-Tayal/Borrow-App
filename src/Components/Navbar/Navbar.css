@@ -1,0 +1,34 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-size: 14px;
+
+    box-shadow: 6px 6px 5px 1px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 6px 6px 5px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 6px 6px 5px 1px rgba(0,0,0,0.4);
+    height: 8vh;
+}
+
+.navbar h1{
+    cursor: pointer;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(32, 163, 245);    
+}
+
+
+.home-btn{
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    background-color: black;
+    color: rgb(32, 163, 245);
+    font-weight: bold;
+    font-size: 2rem;
+}
+

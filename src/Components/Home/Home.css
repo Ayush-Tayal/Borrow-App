@@ -1,0 +1,27 @@
+.home{
+    background-color: white;
+    margin: 8vh 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px 6px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 0px 6px 10px 6px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 6px 10px 6px rgba(0,0,0,0.64);
+}
+
+.home h1{
+    font-size: 3rem;
+}
+
+.apply-btn button{
+    background-color: rgb(32, 163, 245);
+    color: white;
+    font-weight: 600;
+    padding: 8px;
+    font-size: 2rem;
+    border-radius: 10px;
+    margin: 40px;
+}
