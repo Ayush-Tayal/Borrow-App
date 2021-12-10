@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/Borrow-App/static/css/main.4586c5b7.chunk.css",
-    "main.js": "/Borrow-App/static/js/main.209f566b.chunk.js",
-    "main.js.map": "/Borrow-App/static/js/main.209f566b.chunk.js.map",
+    "main.js": "/Borrow-App/static/js/main.276790c3.chunk.js",
+    "main.js.map": "/Borrow-App/static/js/main.276790c3.chunk.js.map",
     "runtime-main.js": "/Borrow-App/static/js/runtime-main.4c1f9a86.js",
     "runtime-main.js.map": "/Borrow-App/static/js/runtime-main.4c1f9a86.js.map",
-    "static/js/2.cc4bce8b.chunk.js": "/Borrow-App/static/js/2.cc4bce8b.chunk.js",
-    "static/js/2.cc4bce8b.chunk.js.map": "/Borrow-App/static/js/2.cc4bce8b.chunk.js.map",
+    "static/js/2.3e767497.chunk.js": "/Borrow-App/static/js/2.3e767497.chunk.js",
+    "static/js/2.3e767497.chunk.js.map": "/Borrow-App/static/js/2.3e767497.chunk.js.map",
     "static/js/3.96f661e2.chunk.js": "/Borrow-App/static/js/3.96f661e2.chunk.js",
     "static/js/3.96f661e2.chunk.js.map": "/Borrow-App/static/js/3.96f661e2.chunk.js.map",
     "index.html": "/Borrow-App/index.html",
     "service-worker.js": "/Borrow-App/service-worker.js",
     "service-worker.js.map": "/Borrow-App/service-worker.js.map",
     "static/css/main.4586c5b7.chunk.css.map": "/Borrow-App/static/css/main.4586c5b7.chunk.css.map",
-    "static/js/2.cc4bce8b.chunk.js.LICENSE.txt": "/Borrow-App/static/js/2.cc4bce8b.chunk.js.LICENSE.txt"
+    "static/js/2.3e767497.chunk.js.LICENSE.txt": "/Borrow-App/static/js/2.3e767497.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4c1f9a86.js",
-    "static/js/2.cc4bce8b.chunk.js",
+    "static/js/2.3e767497.chunk.js",
     "static/css/main.4586c5b7.chunk.css",
-    "static/js/main.209f566b.chunk.js"
+    "static/js/main.276790c3.chunk.js"
   ]
 }
