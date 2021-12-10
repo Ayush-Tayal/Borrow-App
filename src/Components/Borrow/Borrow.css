@@ -94,6 +94,11 @@
     margin-top: 40px;
 }
 
+.raise-request button:hover{
+    background: linear-gradient(to top, #2469aa, #284b61);
+}
+
+
 .signout-btn button{
     font-size: 1.2rem;
     background-color: red;
@@ -104,4 +109,9 @@
     padding: 10px;
     top: 85%;
     right: 8%;
+}
+
+.signout-btn button:hover{
+    background: linear-gradient(to top, red, #aa3232);
+
 }

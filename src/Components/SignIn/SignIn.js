@@ -38,19 +38,19 @@ export default function SignIn() {
         confiCaptcha();
 
         const phoneNumber = "+91" + phoneNo;
-        console.log("Phone no is", phoneNumber);
+        // console.log("Phone no is", phoneNumber);
 
         const appVerifier = window.recaptchaVerifier;
         firebase.auth()
         .signInWithPhoneNumber(phoneNumber, appVerifier)
         .then((confirmationResult) => {
             window.confirmationResult = confirmationResult;
-            console.log("OTP sent");
+            // console.log("OTP sent");
             alert("OTP Sent")
         })
         .catch((err) => {
             alert("OTP Not Sent")
-            console.log("OTP not sent", err);
+            // console.log("OTP not sent", err);
         });
     };
 
@@ -64,7 +64,7 @@ export default function SignIn() {
 
             registerUsers(name, phoneNo);
             localStorage.setItem("userPhone", phoneNo);
-            console.log("Verified", history);
+            // console.log("Verified", history);
             history.push('/borrow')
             
             
@@ -72,7 +72,7 @@ export default function SignIn() {
 
         .catch((err) => {
             alert("Invalid OTP")
-            console.log("verification error");
+            // console.log("verification error");
         });
     };
     

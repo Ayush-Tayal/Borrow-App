@@ -32,10 +32,10 @@ const Borrow = () => {
             localStorage.removeItem("userPhone");
             history.push('/');
             alert("Sign Out Successfully...")
-            console.log("Sign Out");
+            // console.log("Sign Out");
           })
           .catch((error) => {
-            console.log("Error During SignOut", error)
+            // console.log("Error During SignOut", error)
         });
     }
 
@@ -65,7 +65,7 @@ const Borrow = () => {
                 });
             })
 
-            console.log("all users",chatUsers)
+            // console.log("all users",chatUsers)
             setUsers(chatUsers);
             
         })

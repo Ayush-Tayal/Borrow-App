@@ -27,7 +27,7 @@ export const Dashboard = () => {
                 });
             })
 
-            console.log("all users",allRequests)
+            // console.log("all users",allRequests)
             setRequests(allRequests);
             
         })
@@ -43,17 +43,17 @@ export const Dashboard = () => {
             localStorage.removeItem("userPhone");
             history.push('/');
             alert("Sign Out Successfully...")
-            console.log("Sign Out");
+            // console.log("Sign Out");
           })
           .catch((error) => {
-            console.log("Error During SignOut", error)
+            // console.log("Error During SignOut", error)
         });
     }
     
     return (
         <div className='dashboard'>
             {
-                requests ? 
+                requests.length > 0 ? 
                 <div className='requests'>
                     <h1>All Requests</h1>
 
@@ -69,18 +69,19 @@ export const Dashboard = () => {
                         )
                     }
                     </div>        
-                    
-                    <div className="signout-btn">
-                        <button onClick={handleSignOut}>Sign Out</button>
-                    </div>
+
                 </div> 
                 : 
-                <h2>No Requests Found</h2>
+                <h2 className='no-req'>No Requests Found</h2>
                         
             }
 
             <div className='raiseNewReq' >
                 <button onClick={handleNewReq}>Raise New Request</button>            
+            </div>
+
+            <div className="signout-btn">
+                        <button onClick={handleSignOut}>Sign Out</button>
             </div>
 
         </div>
