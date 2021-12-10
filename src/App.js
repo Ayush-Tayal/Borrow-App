@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import SignIn from './Components/SignIn/SignIn';
-import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
+import {HashRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
 import Borrow from './Components/Borrow/Borrow';
 import FourOFour from './Components/FourOFour/FourOFour'
 import Navbar from './Components/Navbar/Navbar';
