@@ -1,6 +1,6 @@
 #Borrow-App
 
-https://nostalgic-kepler-703520.netlify.app
+https://dreamy-borg-623eff.netlify.app/#/
 
 There are 7 components in total, namely Navbar, Home, SignIn, Borrow, Dashboard, FourOFour.
 
