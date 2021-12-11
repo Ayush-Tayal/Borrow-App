@@ -1,5 +1,7 @@
 #Borrow-App
 
+https://nostalgic-kepler-703520.netlify.app
+
 There are 7 components in total, namely Navbar, Home, SignIn, Borrow, Dashboard, FourOFour.
 
 This project is enabled with phone-number authentication by Google Firebase and after successfully entering the OTP at SignIn Component, the user is redirected to the next component i.e., Borrow Component.
@@ -19,3 +21,4 @@ All the authentication is done using the Google Firebase method which is firebas
 Borrow and Dashboard Component are PrivateRoute. Without signing in, users are not able to access those components.
 
 Tech Stack used: ReactJs, React-Router, React-hooks, Local Storage, Firebase.
+For Deployment: Netlify is used
