@@ -6,7 +6,6 @@
     position: sticky;
     top: 0;
     font-size: 14px;
-
     box-shadow: 6px 6px 5px 1px rgba(0,0,0,0.4);
     -webkit-box-shadow: 6px 6px 5px 1px rgba(0,0,0,0.4);
     -moz-box-shadow: 6px 6px 5px 1px rgba(0,0,0,0.4);
@@ -20,7 +19,7 @@
 
 .navbar a{
     text-decoration: none;
-    color: rgb(32, 163, 245);    
+    color: white 
 }
 
 

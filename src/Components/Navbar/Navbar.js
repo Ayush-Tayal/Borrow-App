@@ -6,8 +6,12 @@ const Navbar = () => {
     
     return (
         <div className="navbar">
-            <Link to = '/'> <button className='home-btn'>Home</button> </Link>
+            
             <Link to = '/'> <h1>Borrow App</h1> </Link>
+
+            <div>
+                <Link to = '/' className='home-btn'> Home </Link>
+            </div>
         </div>
     )
 }
