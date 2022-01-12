@@ -83,11 +83,11 @@ export default function SignIn() {
     return (
         <>
             <div className="signin">
-                <h1>Existing Customer   </h1>
+                <h1> Existing Customer </h1>
 
                 <div>
                     <form className="inp">
-                        <label>Name</label>
+                        <label> Name : </label>
                         <input
                             type = 'text'
                             required
@@ -102,7 +102,7 @@ export default function SignIn() {
 
                 <div className="inp"> 
                     <div>
-                        <label>Gender</label>
+                        <label> Gender : </label>
                     </div>
 
                     <div>
@@ -116,7 +116,7 @@ export default function SignIn() {
                     <form onSubmit={onSignInSubmit} >
                         <div id="sign-in-button"></div>
                         <div className="inp">
-                            <label> Phone Number </label>
+                            <label> Phone Number : </label>
                             <input
                                 type = 'tel'
                                 value = {phoneNo}
@@ -133,7 +133,7 @@ export default function SignIn() {
                 <div>
                     <form onSubmit={onSubmitOTP}>
                         <div className="inp"> 
-                            <label> Enter OTP </label>
+                            <label> Enter OTP :</label>
                             <input
                                 type = 'number'
                                 required

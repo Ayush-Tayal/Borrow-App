@@ -5,7 +5,7 @@ import './Home.css'
 const Home = () => {
     return (
         <div className = "home" >
-            <h1>Borrow Money.?</h1>
+            <h1> Looking for Money .?</h1>
 
             <div className='apply-btn'>
                 <Link to = '/signin'>
