@@ -4,10 +4,10 @@
     justify-content: space-around;
     width: 40%;
     margin: auto;
-    margin-top: 6vh;
+    margin-top: 3vh;
     border: 1px solid grey;
     border-radius: 10px;
-    padding: 20px 40px;
+    padding: 10px 40px;
     background-color: rgba(255, 255, 255, 0.705);
     box-shadow: 0px 6px 10px 6px rgba(0,0,0,0.64);
     -webkit-box-shadow: 0px 6px 10px 6px rgba(0,0,0,0.64);
